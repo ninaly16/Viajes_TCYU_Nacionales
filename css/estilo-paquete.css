@@ -1,0 +1,60 @@
+.contenedor {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.prod-item {
+  background: #020c55;
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid #ccc; /* Agrega un borde gris claro alrededor de toda la tabla. */
+  border-radius: 15px; /* Redondea las esquinas exteriores de la tabla. */
+  overflow: hidden; /* Evita que los bordes o contenidos sobresalgan del radio redondeado. */
+}
+
+.item-tit {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.imagen-card {
+  width: 280px;
+}
+
+.precio {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 8px 0;
+  color:aqua;
+  text-align: center;
+}
+
+.fecha {
+  color: rgb(202, 245, 13);
+  text-align: center;
+}
+
+.descripcion {
+  width: 280px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.botonera {
+  text-align: center;
+}
+
+.btn-agregar {
+  background-color: #2c408a;
+  color: antiquewhite;
+  font-size: 24px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.btn-agregar:hover {
+  background-color: #041550;
+}
+
